@@ -11,9 +11,10 @@ body {
 }
 
 a,
-button:focus {
+button:focus-visible {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
     
 }
 
@@ -431,8 +432,9 @@ nav .caret {
     margin-bottom: 40px;
 }
 
-.btn {
+.btn{
     margin: 0 5px 5px 0;
+
 }
 
 .btn.pull-right {
@@ -446,7 +448,7 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button:focus {
+button:focus-visible {
     outline: none!important;
 }
 
@@ -771,6 +773,11 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #000000!important;
+}
+
+.btn-atomic-tangerine:focus{
+   border: solid black 1px;
+   scale: 1.1;
 }
 
 .ltc-white {
